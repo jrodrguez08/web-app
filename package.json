@@ -1,0 +1,41 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "web app using node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrodrguez08/web-app.git"
+  },
+  "keywords": [
+    "web",
+    "node",
+    "express"
+  ],
+  "author": "Jorge Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrodrguez08/web-app/issues"
+  },
+  "homepage": "https://github.com/jrodrguez08/web-app#readme",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.18"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.1.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "wiredep": "^4.0.0"
+  }
+}
