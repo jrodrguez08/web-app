@@ -22,11 +22,16 @@
   },
   "homepage": "https://github.com/jrodrguez08/web-app#readme",
   "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
     "ejs": "^2.4.2",
     "express": "^4.13.4",
     "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
     "jade": "^1.11.0",
-    "mongodb": "^2.1.18"
+    "mongodb": "^2.1.18",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
