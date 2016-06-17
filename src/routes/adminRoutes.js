@@ -10,12 +10,14 @@ var books = [
         title: 'Harry Potter and the Philosophers Stone',
         genre: 'Fantasy',
         author: 'J.K. Rowling',
+        bookId: 72193,
         read: false
     },
     {
         title: 'Harry Potter and Chamber of Secrets',
         genre: 'Fantasy',
         author: 'J.K. Rowling',
+        bookId: 15881,
         read: false
     },
     {

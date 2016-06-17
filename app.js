@@ -9,10 +9,10 @@ var app = express();
 
 var nav = [{
     link: '/Books',
-    text: 'Book'
+    text: 'Books'
 }, {
     link: '/Authors',
-    text: 'Author'
+    text: 'Authors'
 }];
 
 var bookRouter = require('./src/routes/bookRoutes')(nav);
